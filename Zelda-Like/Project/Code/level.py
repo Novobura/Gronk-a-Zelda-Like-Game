@@ -26,4 +26,5 @@ class Level:
 
     def run(self):
         #update and draw the Game
-        pass
+        self.visible_sprites.draw(self.display_surface)
+   
